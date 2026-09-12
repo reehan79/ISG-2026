@@ -1,329 +1,205 @@
-# ISG 2026 Programme Source of Truth
+# ISG 2026 Model Experiment Submission Source of Truth
 
-**Status:** CONSOLIDATED PLANNING BASELINE  
+**Status:** SUBMISSION BASELINE  
 **Updated:** 2026-09-12  
-**Purpose:** single programme-level authority for the ISG model experiment, Pakistan Ground Laboratory, CubeSTEM reference deployment, optional HIL evidence, and December MissionLab Challenge continuity.
+**Current scope:** only the two Model Experiment proposals.
 
 ---
 
-## 1. Programme objective
+## 1. Governing ISG constraints
 
-Use ISG 2026 to establish and demonstrate an **IST-led Pakistan MissionLab Network** in which a common engineering experiment package can be executed through:
+The current regulation requires each Model Experiment to:
 
-1. deterministic Digital Twin / mission simulation;
-2. declared communication and telemetry impairment campaigns;
-3. structured crew operating procedures and a transparent priority-aware decision aid;
-4. reproducible run identity and evidence export;
-5. distributed Pakistan Ground-Laboratory support under IST coordination; and
-6. an optional, non-critical simulation-to-physical/HIL shadow replay through TwinLink on representative hardware.
+- be implemented by the Martian-station crew according to supplied instructions;
+- be scientifically/technically relevant to a Martian expedition;
+- account for constrained resources/energy/operations;
+- be feasible within the 1–2 day expedition period;
+- be delivered as a turnkey experiment with instructions;
+- state crew count, total duration/repetitions, hypothesis, expected result, equipment/materials, step-by-step procedure, verification criteria, reporting form, skills and safety.
 
-The October outcome should be an **internationally witnessed reference deployment**, not merely a booth/demo. The same experiment/scenario/evidence infrastructure must then flow into the Pakistan MissionLab Challenge instead of creating a second project.
+Current dates in the supplied regulation:
 
----
+- application: 12 September 2026;
+- organizer review / 5-minute clarification: by 21 September 2026;
+- equipment delivery, if required: by 1 October 2026.
 
-## 2. Institutional architecture
-
-### 2.1 National hub
-
-**IST / SSTRL / NCGSA** is the Pakistan Reference University / National Ground-Laboratory hub.
-
-IST remains:
-
-- sole organizer-facing Pakistan interface;
-- central Pakistan Mission Control / Ground-Lab hub;
-- experiment integration authority;
-- evidence archive;
-- accreditation/coordination authority for Pakistan nodes;
-- primary national media/operations location.
-
-### 2.2 Distributed nodes
-
-The ISG Ground-Lab requirements explicitly allow a distributed national laboratory across other organizations inside Pakistan.
-
-Node classes:
-
-- **Operational University Nodes:** bounded specialist functions, non-critical to measured experiment execution.
-- **National Technical Node:** SUPARCO may be invited for a bounded independent telemetry/link-analysis or evidence-validation function, subject to written acceptance.
-- **Associate / Observer Institutions:** parallel analysis, outreach and December pipeline; no critical experiment function.
-- **International Collaborator:** SQU/Oman may be invited only as a separately disclosed observer/collaborator, not as part of the Pakistan national Ground Laboratory unless organizers explicitly approve.
-
-### 2.3 Single-voice rule
-
-During all organizer-facing operations:
-
-- IST is the single Pakistan voice to the host MCC / crew.
-- External-node outputs route through IST.
-- No external node may introduce uncontrolled advice into a measured episode.
+Ms. Lada's direct communication invited Pakistan to submit 1–3 proposals. The current plan is to submit **two distinct proposals**.
 
 ---
 
-## 3. CubeSTEM positioning
+## 2. Proposal 1 — MARS-LINK v2
 
-CubeSTEM is the **technology/platform contributor**, not the scientific subject of the ISG experiment.
+**Submission title:**  
+**MARS-LINK — Crew-Coordinated Delay-Tolerant Mission Operations under Compound Mars Anomalies**
 
-The technical narrative is:
+### Scientific question
 
-> one experiment definition -> deterministic simulation -> declared fault/impairment campaign -> evidence -> optional physical-shadow replay.
+Under a fixed Mars-like communication delay, do structured onboard procedures and a transparent priority-aware procedure aid reduce critical mission/resource violations compared with Earth-dependent operation when safe action is required before an Earth response can return?
 
-CubeSTEM should be visible because the infrastructure is used, not because the experiment is written as a product demonstration.
+### Experimental modes
 
-For ISG-facing forms, the preferred institutional partner identity is **IST / SSTRL / NCGSA**. CubeSTEM can be credited accurately in the development-team experience, software/equipment description and technology-platform attribution.
+- **Mode A:** Earth-dependent operation.
+- **Mode B:** structured onboard procedures.
+- **Mode C:** deterministic priority-aware procedure aid.
 
----
+Mode C is rule-based, transparent and advisory. It is not presented as AI/ML and does not autonomously command hardware.
 
-## 4. Model Experiment strategy
+### Communication profile
 
-### 4.1 Primary experiment
+- 5-minute one-way delay;
+- 10-minute round trip.
 
-**MARS-LINK v2 — Crew-Coordinated Delay-Tolerant Mission Operations under Compound Mars Anomalies**
+At least one anomaly in each scenario family requires a safe local decision before the round-trip Earth response can arrive.
 
-Status: **PRIMARY / MODIFY-THEN-GO**
+### Scenario families
 
-Scientific question:
+1. resource/energy emergency;
+2. communications/relay degradation;
+3. systems/mission conflict.
 
-> Under a fixed Mars-like communication delay, do structured onboard procedures and a transparent priority-aware decision aid reduce critical mission/resource violations compared with Earth-dependent operation when the crew must act before an Earth response can return?
+Matched variants are used so the crew does not simply repeat identical scenario scripts.
 
-Three operating modes:
+### Crew
 
-- **Mode A — Earth-dependent operation**
-- **Mode B — structured onboard procedures**
-- **Mode C — deterministic priority-aware decision aid**
+**6 crew members**
 
-The delay is an environmental constraint, not the outcome being “proved.”
+1. Mission Commander / Crew Lead;
+2. Communications Specialist;
+3. Operations / Flight-Control Engineer;
+4. Systems / Resource Engineer;
+5. Data / Verification Officer;
+6. Independent Observer / Evidence Recorder.
 
-Measured episodes must use matched scenario variants and a pre-declared counterbalancing assignment. IST may execute the frozen Earth-message script, but message content/timing is standardized. External nodes may observe/analyse in parallel but may not influence measured crew decisions.
-
-### 4.2 Secondary / alternate experiment
-
-**TWIN-RESILIENCE v2 — Calibrated Crew Trust in Digital-Twin-Assisted Remote Asset Operations under Degraded Telemetry**
-
-Status: **HOLD / MODIFY BEFORE SUBMISSION**
-
-The earlier “twin helps diagnose faults” version is too close to a product demonstration. The revised question must include cases where the twin/reference model is intentionally inaccurate, stale or incomplete.
-
-Scientific question:
-
-> Can a crew calibrate trust correctly when raw telemetry is degraded and the Digital Twin/reference estimate may itself be wrong?
-
-This tests automation bias / calibrated trust, not merely whether a Digital Twin is useful.
-
-Submission decision is conditional on:
-- organizer preference for multiple proposals;
-- sufficient differentiation from MARS-LINK;
-- the revised protocol being fully turnkey.
-
-### 4.3 No third experiment
-
-MARTA / AI is not a standalone proposal. Automated Mission Planner is deferred to the later Challenge.
-
----
-
-## 5. MARS-LINK v2 scientific baseline
-
-### 5.1 Nominal crew design
-
-Nominal measured configuration: **6 crew functions**
-
-1. Mission Commander / Crew Lead
-2. Communications Specialist
-3. Operations / Flight-Control Engineer
-4. Systems / Resource Engineer
-5. Data / Verification Officer
-6. Independent Observer / Evidence Recorder
-
-If fewer people are assigned, roles merge according to the published fallback map. If more are assigned, surplus crew are evidence observers rather than uncontrolled advisers.
-
-The exact ISG crew size/role structure is not yet treated as verified programme truth.
-
-### 5.2 Communication constraint
-
-Planning baseline:
-
-- **5 minutes one-way**
-- **10 minutes round trip**
-
-At least one scenario must require a safe local decision before the round trip can complete. That is the Mars-relevant operational constraint.
-
-### 5.3 Episode design
-
-Planning target:
+### Run structure
 
 - 1 unmeasured training episode;
-- 9 measured episodes = 3 operating modes × 3 matched scenario families/variants;
-- optional terminal baseline/control episode to expose learning effects;
-- total experiment package target: approximately **5–6 hours**, subject to organizer crew-time allocation.
+- 9 measured episodes = 3 operating modes × 3 matched scenario families;
+- mode/scenario ordering is pre-declared and counterbalanced rather than fixed A->B->C.
 
-The exact ordering is frozen before execution using a reproducible counterbalancing scheme. A fixed A->B->C progression is prohibited.
+### Duration
 
-### 5.4 Primary endpoint
+Target total: **5 hours 15 minutes** including briefing, training, nine measured episodes, controlled resets, one short break and final evidence/reporting.
 
-One primary endpoint:
+### Primary endpoint
 
-**critical mission/resource constraint violations** (count and, where applicable, cumulative duration).
+**Critical mission/resource constraint violations** — count and, where meaningful, cumulative duration.
 
-Secondary endpoints may include:
+Secondary measures:
 
 - mandatory mission-objective completion;
-- crew-internal deliberation time, excluding forced communication delay;
-- incorrect or unsafe actions;
-- message-priority errors / missed acknowledgements;
+- crew-internal decision time excluding forced communication delay;
+- incorrect/unsafe actions;
+- message-priority or acknowledgement errors;
 - recovery time;
-- deviation count;
-- episode-level workload/coordination observations where ethically and operationally appropriate.
+- procedural deviations;
+- final mission/resource state.
 
-Configured link latency is descriptive context, not a primary finding.
+### Earth-side control
 
-### 5.5 Mode C
+Measured episodes use a frozen deterministic Earth-message script. The experiment must remain executable locally/offline. Any live distributed Ground-Lab participation belongs outside the controlled measured condition.
 
-Mode C is **not an unvalidated ML controller**.
+### HIL / physical hardware
 
-It is a deterministic, inspectable **Priority-Aware Procedure Aid** with a frozen and published rule set. Any ML work before/after ISG remains shadow/offline analysis unless separately validated and approved.
-
----
-
-## 6. Experiment-control boundary
-
-### 6.1 Measured episodes
-
-Measured episodes must be scientifically controlled.
-
-- Earth-message content/timing is frozen.
-- IST may operate the Earth-side script to preserve real Ground-Lab participation.
-- External university/SUPARCO nodes may perform parallel analysis.
-- External-node recommendations cannot change the measured crew condition.
-- All inbound/outbound messages are logged with source and timestamp.
-- If protocol contamination occurs, the affected episode is flagged/excluded rather than silently treated as valid.
-
-### 6.2 Demonstration episode
-
-A separate unmeasured operational/showcase episode may allow:
-
-- live IST Mission Control interaction;
-- university-node analysis;
-- SUPARCO technical participation if agreed;
-- media-safe wallboard;
-- broader distributed-MissionLab demonstration.
-
-This keeps media/network value without corrupting the scientific dataset.
+Not required for the crew experiment and not part of the scientific completion criteria.
 
 ---
 
-## 7. HIL / KidSat / TwinLink boundary
+## 3. Proposal 2 — TWIN-RESILIENCE v2
 
-HIL is strategically valuable but must remain non-critical.
+**Submission title:**  
+**TWIN-RESILIENCE — Calibrated Crew Trust in Digital-Twin-Assisted Remote Asset Operations under Degraded Telemetry**
 
-Allowed October proof:
+### Scientific question
 
-- one representative scenario;
-- same experiment/scenario identity and evidence schema;
-- replay against a representative cyber-physical resource at IST through TwinLink/Edge where validated;
-- recorded locally before the event;
-- used as evidence of simulation-to-physical continuity.
+When raw telemetry is degraded and the Digital Twin/reference estimate may itself be correct, stale, incomplete or wrong, can the crew calibrate trust correctly and choose the safer operational response?
 
-Hard non-claims:
+### Remote asset
 
-- KidSat is not Mars hardware and not a Mars analogue;
-- HIL is not part of the primary ISG scientific result unless specifically accepted;
-- no measured episode depends on live Pakistan-Moscow hardware control;
-- no unvalidated physical path is a single point of failure.
+A **Mars Surface Communications and Power Relay** is used as the remote mission asset.
 
----
+The asset has bounded operational state such as:
 
-## 8. Turnkey package requirement
+- battery/energy reserve;
+- power generation/load;
+- communication-link state;
+- thermal/status indicators;
+- relay availability;
+- command acknowledgement.
 
-A selected Model Experiment must be executable by a randomly assigned crew from supplied instructions.
+### Controlled evidence conditions
 
-The planned package therefore includes:
+1. healthy telemetry + consistent twin/reference;
+2. degraded telemetry + accurate/useful twin/reference;
+3. degraded telemetry + intentionally stale/wrong twin/reference;
+4. unmodelled/ambiguous condition requiring corroboration rather than blind reliance on either source.
 
-- offline/local executable deployment;
-- preconfigured runtime or developer-supplied machines if organizers require;
-- USB/offline backup;
-- one unmeasured self-paced training scenario;
-- role-specific quick cards;
-- guided step/progress validation;
-- English master instructions;
-- Russian quick-start / role-card support where feasible;
-- scenario pack and frozen assignment;
-- reporting form;
-- evidence export;
-- printed fallback instructions.
+The crew is not told which condition is active.
 
-“Browser-based or locally hosted” is not sufficient as a final turnkey definition.
+### Crew
 
----
+**5 crew members**
 
-## 9. Human-performance data boundary
+1. Mission / Operations Lead;
+2. Systems Engineer;
+3. Communications / Telemetry Specialist;
+4. Data / Verification Officer;
+5. Independent Observer / Evidence Recorder.
 
-The experiment evaluates the protocol/system, not individual competence.
+### Run structure
 
-Programme baseline:
+- 1 unmeasured training episode;
+- 8 measured episodes = 4 evidence-quality conditions × 2 matched variants;
+- concealed deterministic condition assignment;
+- post-episode reveal only after crew decision and evidence capture.
 
-- report crew/episode-level results;
-- de-identify individual performance in any research/publication use;
-- do not represent experiment metrics as competition scoring unless organizers explicitly define that;
-- follow organizer/institutional consent and data-handling requirements;
-- state sample size and avoid broad causal/generalization claims.
+### Duration
 
----
+Target total: **4 hours 40 minutes** including briefing, training, eight measured episodes, resets, one short break and final evidence/reporting.
 
-## 10. Ground-Lab capability baseline
+### Primary endpoint
 
-The Pakistan Ground Laboratory should be provisioned against the capabilities named in the ISG Ground-Lab requirements:
+**Incorrect reliance decisions** — cases in which the crew accepts an erroneous/stale twin estimate over stronger corroborating evidence, or rejects a correct/useful twin indication without justified contrary evidence and takes the unsafe action.
 
-- computers and robust Internet (document states from 50 Mb/s);
-- design engineering / 3D modelling / circuit tools where relevant;
-- control software / ROS access;
-- communications / GNURadio / SDR# access;
-- information/media recording and publishing tools;
-- advantageous access to fabrication / soldering / experiment hardware.
+Secondary measures:
 
-These are capability requirements, not necessarily one separate person per tool category.
+- fault-recognition correctness;
+- recovery correctness;
+- time to recognize telemetry/twin disagreement;
+- inappropriate twin reliance;
+- corroborating-evidence actions taken;
+- mission/resource violations.
 
-Node selection should fill capability gaps, not maximize logos.
+### HIL / physical hardware
+
+Not required for the crew experiment and not part of the scientific completion criteria. Any later physical-shadow replay on representative hardware is supplementary only.
 
 ---
 
-## 11. October -> December continuity
+## 4. Shared submission principles
 
-October and December are one programme if the artifacts are reused.
+Both proposals use the same submission discipline:
 
-October artifacts to become December assets:
-
-- experiment/scenario pack;
-- impairment/fault campaign;
-- experiment runner;
-- evidence schema;
-- reporting/export;
-- node console;
-- role/training materials;
-- optional physical-shadow path.
-
-December adds challenge missions, qualification/scoring and wider participation; it must not rebuild the platform.
+- Partner/institution field: **Institute of Space Technology (IST) / SSTRL / NCGSA, Pakistan**.
+- CubeSTEM may be credited factually as the technology/platform contributor in team experience and software description, not as the scientific subject of the experiment.
+- Software package is designed to be locally executable/offline for a turnkey crew experiment.
+- Crew instructions should be concise and role-specific.
+- Results evaluate the experiment/procedure, not individual crew competence.
+- Any later research/publication use should de-identify individual performance and follow applicable organizer/institutional consent requirements.
+- No proposal claims flight qualification, autonomous Mars control, validated Mars AI, or Mars-qualified hardware.
 
 ---
 
-## 12. Success criteria for October
+## 5. Out of scope for the current repository baseline
 
-October counts as a strong CubeSTEM/IST reference if:
+The following are deliberately **not current planning targets here**:
 
-1. a randomly assigned external/international crew can execute the package from instructions;
-2. experiment runs are reproducible and evidence lineage is preserved;
-3. a second institution can execute the same pack independently and produce compatible evidence;
-4. null/negative outcomes are captured honestly;
-5. one bounded simulation-to-physical evidence-continuity proof exists without overclaim;
-6. IST visibly operates the distributed Pakistan Ground-Lab network.
+- software development work packages;
+- Ground-Lab/node rollout;
+- SUPARCO/university outreach;
+- sponsorship/media strategy;
+- IST minute-sheet revision;
+- December Challenge planning;
+- TwinLink/HIL implementation;
+- AI-Alpha implementation.
 
----
-
-## 13. Hard boundaries
-
-Do not:
-
-- claim “Mars AI” for the rule-based aid;
-- claim autonomous physical control that is not validated;
-- call KidSat Mars hardware;
-- name SUPARCO/RESOLVE/SQU as confirmed partners before written acceptance;
-- present SQU as part of Pakistan's national Ground Lab without organizer approval;
-- let node inputs alter measured episodes;
-- state unverified ISG crew structure or event dates as settled;
-- create a second physics/execution authority in this repository.
+Those topics may be planned elsewhere after the two Model Experiment submissions are frozen.
