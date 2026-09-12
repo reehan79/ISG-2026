@@ -61,7 +61,7 @@ Five crew members:
 - one 15 min short break;
 - 30 min final evidence review/report.
 
-Planned total: **4 h 40 min**.
+Planned total: **4 h 45 min**.
 
 The eight measured episodes are four evidence-quality conditions × two matched variants. Condition assignment is deterministic but concealed from the crew until after the episode.
 
