@@ -154,7 +154,7 @@ The crew is not told which condition is active.
 
 ### Duration
 
-Target total: **4 hours 40 minutes** including briefing, training, eight measured episodes, resets, one short break and final evidence/reporting.
+Target total: **4 hours 45 minutes** including briefing, training, eight measured episodes, resets, one short break and final evidence/reporting.
 
 ### Primary endpoint
 
