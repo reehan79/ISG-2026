@@ -16,6 +16,8 @@ Additional source-of-truth documents:
 - [Submission source of truth](docs/PROGRAM_SOURCE_OF_TRUTH.md)
 - [Communications and turnkey execution architecture](docs/COMMUNICATIONS_AND_TURNKEY_ARCHITECTURE.md)
 - [Chat / decision history — 12 Sep 2026](docs/history/CHAT_HISTORY_2026-09-12.md)
+- [Node partner outreach plan](docs/NODE_PARTNER_OUTREACH_PLAN.md)
+- [Current status and next steps](docs/STATUS_AND_NEXT_STEPS.md)
 
 ## Authority boundary
 

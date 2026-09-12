@@ -224,3 +224,35 @@ The following are deliberately **not current planning targets here**:
 - AI-Alpha implementation.
 
 Those topics may be planned elsewhere after the two Model Experiment submissions are frozen.
+
+
+---
+
+## 6. Current institutional status
+
+As of 12 September 2026:
+
+- The two Model Experiment proposals have been prepared and sent to Ms. Lada / the ISG organizers.
+- The Vice Chancellor is being kept informed through a short status note rather than a decision-seeking paper.
+- International travel and personal participation expenses for Dr. Rehan Mahmood and the travelling students are planned to be borne by the participants themselves; no IST international travel funding is being requested for the delegation.
+- Pakistan-side Ground Laboratory / local activity expenditure is intended to be handled from the available SSTRL share within NCGSA, subject to normal institutional procedures.
+- A formal extension/revision of the already-approved minute sheet is planned for the next working session; that revision will capture the enlarged IST Ground-Lab / national-node activity and the later larger national follow-on.
+- The immediate external-coordination priority is **node partners**, not sponsorship.
+
+The repository remains a source-of-truth repository. It does not become the implementation repository for Digital Twin, TwinLink, Edge, Ground-Lab software or HIL.
+
+---
+
+## 7. Node-partner strategy
+
+The first external outreach should focus on building a small, credible network of technical nodes around IST rather than asking for money.
+
+Priority order:
+
+1. **IST / SSTRL / NCGSA** — national hub and organizer-facing Pakistan interface.
+2. **Two strong university operational nodes** — selected for concrete technical capability and committed faculty ownership.
+3. **SUPARCO** — approached as a national technical / strategic node for a bounded specialist role.
+4. **Additional universities / organizations** — associate or observer nodes feeding the later larger national activity.
+5. **Sponsors (Ignite, PARS, corporate partners, etc.)** — approached only after the technical node network and event structure are clear.
+
+Commercially, a successful multi-institution node deployment is valuable future evidence for CubeSTEM MissionLab / Digital Twin adoption. The outreach itself must remain institution-first and technical, not sales-oriented.
