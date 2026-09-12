@@ -6,16 +6,20 @@ Source-of-truth repository for the two IST / Pakistan Model Experiment proposals
 
 This repository is **not an implementation repository**. It does not own Digital Twin, TwinLink, Edge, HIL, Ground-Lab deployment, software development or the later MissionLab Challenge.
 
-The current and immediate purpose is only to freeze the scientific/procedural source of truth for the two Model Experiment submissions:
+The current and immediate purpose is to freeze the scientific/procedural source of truth for the two Model Experiment submissions:
 
 1. [MARS-LINK v2](docs/model-experiments/MARS_LINK_V2_PLAN.md)
 2. [TWIN-RESILIENCE v2](docs/model-experiments/TWIN_RESILIENCE_V2_PLAN.md)
 
-See also the [submission source of truth](docs/PROGRAM_SOURCE_OF_TRUTH.md).
+Additional source-of-truth documents:
+
+- [Submission source of truth](docs/PROGRAM_SOURCE_OF_TRUTH.md)
+- [Communications and turnkey execution architecture](docs/COMMUNICATIONS_AND_TURNKEY_ARCHITECTURE.md)
+- [Chat / decision history — 12 Sep 2026](docs/history/CHAT_HISTORY_2026-09-12.md)
 
 ## Authority boundary
 
-- This repository owns the **experiment definitions, hypotheses, crew procedures, measurements and submission decisions**.
+- This repository owns the **experiment definitions, hypotheses, crew procedures, measurements, execution constraints, communication architecture and submission decisions**.
 - Numerical implementation remains in the existing CubeSTEM Digital Twin / MissionLab repositories.
 - Physical/HIL implementation, if ever used, remains outside this repository.
 - No plan in this repository should be read as an instruction to start software development.

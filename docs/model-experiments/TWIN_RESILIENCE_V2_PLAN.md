@@ -86,7 +86,19 @@ The evaluator scoring rule is deterministic and fixed before execution.
 - mission/resource violations;
 - final relay state.
 
-## 9. Turnkey concept
+## 9. Ground-side communications and monitoring
+
+The scientific experiment remains local/offline-capable in Moscow.
+
+IST Pakistan Mission Control and approved analysis nodes may receive mirrored telemetry, event status and evidence over a normal real-time terrestrial link. During measured episodes, however:
+
+- ground-side participants must not reveal whether raw telemetry or the Digital Twin/reference is correct;
+- no live ground-side recommendation may determine the crew's reliance decision;
+- loss of the Pakistan–Moscow link must not stop, reset or change the scientific condition.
+
+Live Ground-Lab interaction may be used in a separate unmeasured demonstration/showcase episode.
+
+## 10. Turnkey concept
 
 Crew receives:
 
@@ -99,17 +111,17 @@ Crew receives:
 - crew report form;
 - printed fallback instructions.
 
-## 10. Safety/data boundary
+## 11. Safety/data boundary
 
 Software-only crew experiment. No hazardous equipment or invasive procedure.
 
 Crew results are reported at crew/episode level for evaluation of the procedure/system. Individual competence is not presented as an experiment outcome.
 
-## 11. HIL boundary
+## 12. HIL boundary
 
 Physical/HIL replay is not required and is not part of the Model Experiment completion criteria. Any later replay on representative cyber-physical hardware is supplementary only.
 
-## 12. Non-claims
+## 13. Non-claims
 
 The proposal does not claim:
 

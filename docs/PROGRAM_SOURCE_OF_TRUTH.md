@@ -94,9 +94,22 @@ Secondary measures:
 - procedural deviations;
 - final mission/resource state.
 
-### Earth-side control
+### Earth-side control and Pakistan–Moscow link
 
-Measured episodes use a frozen deterministic Earth-message script. The experiment must remain executable locally/offline. Any live distributed Ground-Lab participation belongs outside the controlled measured condition.
+MARS-LINK uses a **hybrid communications architecture**:
+
+- the complete scientific experiment is shipped/provided as an offline/local turnkey package in Moscow;
+- IST Pakistan Mission Control may act as the real Earth side over an ordinary terrestrial Internet link;
+- the real Internet link is only the transport path;
+- the experiment software applies the declared **5-minute one-way Mars delay** before an Earth message becomes available to the crew;
+- message content and release timing remain frozen for measured episodes;
+- if the Pakistan–Moscow link fails, the local Moscow package generates the same pre-scripted Earth message with the same delay, so the scientific condition does not change.
+
+The measured experiment therefore never depends on live cross-border connectivity.
+
+A separate real-time operations/media path may mirror telemetry to IST and approved nodes for monitoring, analysis and showcase activity. That path must not inject uncontrolled advice into measured episodes.
+
+See [Communications and Turnkey Execution Architecture](COMMUNICATIONS_AND_TURNKEY_ARCHITECTURE.md).
 
 ### HIL / physical hardware
 
@@ -169,6 +182,12 @@ Secondary measures:
 - corroborating-evidence actions taken;
 - mission/resource violations.
 
+### Ground-side visibility and communications
+
+The TWIN-RESILIENCE scientific package remains local/offline-capable in Moscow. IST and approved nodes may receive mirrored telemetry/evidence over a real-time terrestrial link for observation or parallel analysis, but during measured episodes they must not tell the crew whether the raw telemetry or Digital Twin/reference is correct.
+
+Loss of the Pakistan–Moscow link must not stop or alter the experiment.
+
 ### HIL / physical hardware
 
 Not required for the crew experiment and not part of the scientific completion criteria. Any later physical-shadow replay on representative hardware is supplementary only.
@@ -182,6 +201,8 @@ Both proposals use the same submission discipline:
 - Partner/institution field: **Institute of Space Technology (IST) / SSTRL / NCGSA, Pakistan**.
 - CubeSTEM may be credited factually as the technology/platform contributor in team experience and software description, not as the scientific subject of the experiment.
 - Software package is designed to be locally executable/offline for a turnkey crew experiment.
+- Live Pakistan–Moscow connectivity is additive: useful for real Ground-Control presence, telemetry mirroring, distributed observation and media, but never a scientific single point of failure.
+- The Mars communications delay is imposed deterministically by the experiment software, not by the ordinary Internet transport.
 - Crew instructions should be concise and role-specific.
 - Results evaluate the experiment/procedure, not individual crew competence.
 - Any later research/publication use should de-identify individual performance and follow applicable organizer/institutional consent requirements.

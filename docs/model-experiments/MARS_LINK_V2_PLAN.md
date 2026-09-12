@@ -83,9 +83,33 @@ Record count and, where meaningful, cumulative duration for each episode.
 - procedure deviations;
 - final mission/resource state.
 
-## 10. Earth-message control
+## 10. Earth-message control and live-link architecture
 
-Measured episodes use a frozen deterministic Earth-message script. The experiment is executable locally/offline and does not depend on a live international network.
+Measured episodes use a frozen deterministic Earth-message script.
+
+Preferred execution:
+
+1. IST Pakistan Mission Control sends the protocol-defined Earth message over the normal Pakistan–Moscow Internet path.
+2. The real network delivers that message as ordinary terrestrial traffic.
+3. The Moscow experiment package places the message into the experiment queue and enforces the declared **5-minute one-way Mars delay**.
+4. The crew sees the message only when the simulated Mars delay expires.
+5. Crew acknowledgements/responses are handled through the same controlled experiment timing model.
+
+The real Internet path is therefore **transport**, not the source of the Mars delay.
+
+### Local scientific fallback
+
+If the Pakistan–Moscow link is unavailable, the local Moscow package generates the **same frozen Earth message, at the same protocol time, with the same 5-minute delay**.
+
+Therefore:
+
+- live IST participation is desirable but not required for scientific completion;
+- link failure does not change the measured condition;
+- the experiment remains fully executable offline.
+
+### Real-time monitoring path
+
+A separate real-time path may mirror telemetry, run status and evidence to IST and approved observers/nodes. This path may support monitoring, analysis, video/media and an unmeasured showcase episode, but it must not introduce uncontrolled advice into measured crew decisions.
 
 ## 11. Turnkey concept
 
@@ -98,7 +122,8 @@ Crew receives:
 - automated run logging;
 - crew report form;
 - evidence export;
-- printed fallback instructions.
+- printed fallback instructions;
+- local Earth-message fallback capable of reproducing the frozen IST script without Internet connectivity.
 
 ## 12. Safety/data boundary
 
