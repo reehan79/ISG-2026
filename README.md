@@ -1,22 +1,25 @@
 # ISG-2026
 
-Programme planning repository for Pakistan / IST participation in the International Space Games 2026, the Pakistan National Ground Laboratory, the CubeSTEM MissionLab technology layer, and continuity into the Pakistan MissionLab Challenge.
+Source-of-truth repository for the two IST / Pakistan Model Experiment proposals being prepared for International Space Games 2026.
 
-## Current source of truth
+## Current scope
 
-Start here:
+This repository is **not an implementation repository**. It does not own Digital Twin, TwinLink, Edge, HIL, Ground-Lab deployment, software development or the later MissionLab Challenge.
 
-- [Programme source of truth](docs/PROGRAM_SOURCE_OF_TRUTH.md)
-- [MARS-LINK v2 experiment plan](docs/model-experiments/MARS_LINK_V2_PLAN.md)
-- [TWIN-RESILIENCE v2 alternate plan](docs/model-experiments/TWIN_RESILIENCE_V2_PLAN.md)
-- [Pakistan MissionLab Network / Ground-Lab plan](docs/ground-lab/PAKISTAN_MISSIONLAB_NETWORK_PLAN.md)
-- [October build and cross-repository work plan](docs/development/OCTOBER_BUILD_PLAN.md)
-- [Decisions, assumptions and open questions](docs/DECISIONS_AND_OPEN_QUESTIONS.md)
+The current and immediate purpose is only to freeze the scientific/procedural source of truth for the two Model Experiment submissions:
 
-## Programme principle
+1. [MARS-LINK v2](docs/model-experiments/MARS_LINK_V2_PLAN.md)
+2. [TWIN-RESILIENCE v2](docs/model-experiments/TWIN_RESILIENCE_V2_PLAN.md)
 
-October is not a one-off technology demo. The objective is to produce a scientifically credible ISG experiment and an internationally witnessed reference deployment of an IST-led distributed MissionLab architecture. The same technical artifacts should then be reused in the later Pakistan MissionLab Challenge rather than rebuilt.
+See also the [submission source of truth](docs/PROGRAM_SOURCE_OF_TRUTH.md).
 
-## Authority note
+## Authority boundary
 
-This repository records programme architecture, experiment protocol, Ground-Lab/network design, submission material and coordination artifacts. Numerical simulation authority remains in the CubeSTEM Digital Twin / MissionLab repositories; physical-resource authority remains in TwinLink / Edge. This repository must not silently fork those technical authorities.
+- This repository owns the **experiment definitions, hypotheses, crew procedures, measurements and submission decisions**.
+- Numerical implementation remains in the existing CubeSTEM Digital Twin / MissionLab repositories.
+- Physical/HIL implementation, if ever used, remains outside this repository.
+- No plan in this repository should be read as an instruction to start software development.
+
+## Immediate target
+
+Produce two Appendix 1 Model Experiment applications that are scientifically defensible, Mars-relevant, turnkey in concept, and ready for submission to the ISG Organizing Committee.
