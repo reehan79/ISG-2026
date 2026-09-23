@@ -1,31 +1,60 @@
-# ISG-2026
+# ISG-2026 / MissionLab Network 2026
 
-Source-of-truth repository for the two IST / Pakistan Model Experiment proposals being prepared for International Space Games 2026.
+This repository is the **programme source of truth** for the connected IST/SSTRL/CubeSTEM activity spanning:
 
-## Current scope
+1. the two ISG 2026 Model Experiments;
+2. the IST/Pakistan Ground Support and distributed Mission Node activity;
+3. the bridge from the ISG international campaign into the later MissionLab Challenge;
+4. the longer-term progression to remote KidSat / TwinLink / Digital Twin missions;
+5. the participation, claims, partner, media and development boundaries that all future work must follow.
 
-This repository is **not an implementation repository**. It does not own Digital Twin, TwinLink, Edge, HIL, Ground-Lab deployment, software development or the later MissionLab Challenge.
+It is **not an implementation repository**. Digital Twin, TwinLink, Edge and KidSat implementation remain authoritative in their own technical repositories.
 
-The current and immediate purpose is to freeze the scientific/procedural source of truth for the two Model Experiment submissions:
+## Canonical reading order
 
-1. [MARS-LINK v2](docs/model-experiments/MARS_LINK_V2_PLAN.md)
-2. [TWIN-RESILIENCE v2](docs/model-experiments/TWIN_RESILIENCE_V2_PLAN.md)
+Before drafting letters, media, development plans, websites, sponsor material or partner messages, read:
 
-Additional source-of-truth documents:
+1. [Programme Architecture Freeze v0.1](docs/master/PROGRAM_ARCHITECTURE_FREEZE_V0_1.md)
+2. [Authority and Claims](docs/master/AUTHORITY_AND_CLAIMS.md)
+3. [Current Status and Next Steps](docs/STATUS_AND_NEXT_STEPS.md)
+4. [Thread / Agent Handoff Protocol](docs/master/THREAD_HANDOFF_PROTOCOL.md)
+5. the relevant domain document below.
 
-- [Submission source of truth](docs/PROGRAM_SOURCE_OF_TRUTH.md)
-- [Communications and turnkey execution architecture](docs/COMMUNICATIONS_AND_TURNKEY_ARCHITECTURE.md)
-- [Chat / decision history — 12 Sep 2026](docs/history/CHAT_HISTORY_2026-09-12.md)
-- [Node partner outreach plan](docs/NODE_PARTNER_OUTREACH_PLAN.md)
-- [Current status and next steps](docs/STATUS_AND_NEXT_STEPS.md)
+## Domain source-of-truth documents
+
+### ISG scientific baseline
+- [MARS-LINK v2](docs/isg/MARS_LINK_V2_PLAN.md)
+- [TWIN-RESILIENCE v2](docs/isg/TWIN_RESILIENCE_V2_PLAN.md)
+- [Communications and Turnkey Architecture](docs/isg/COMMUNICATIONS_AND_TURNKEY_ARCHITECTURE.md)
+
+### Distributed MissionLab network
+- [Mission Node Model](docs/nodes/MISSION_NODE_MODEL.md)
+- [Participation Models](docs/partnerships/PARTICIPATION_MODELS.md)
+- [Node Partner Outreach Plan](docs/NODE_PARTNER_OUTREACH_PLAN.md)
+
+### ISG -> Challenge -> KidSat continuity
+- [ISG to MissionLab Challenge Continuity](docs/challenge/ISG_TO_CHALLENGE_CONTINUITY.md)
+
+### Development alignment
+- [Implementation Repository Mapping](docs/technology/IMPLEMENTATION_REPOSITORY_MAPPING.md)
+
+### Communications
+- [Message House](docs/communications/MESSAGE_HOUSE.md)
+
+### History
+- [Architecture Decision History — 23 Sep 2026](docs/history/ARCHITECTURE_DECISION_HISTORY_2026-09-23.md)
+- [Earlier Experiment Decision History — 12 Sep 2026](docs/history/CHAT_HISTORY_2026-09-12.md)
+
+## Core programme rule
+
+**ISG is the international activation and credibility milestone; it is not the paid product.**
+
+There is no fee for ISG participation under this programme. The later **MissionLab Challenge** is a separate fee-bearing programme. Teams may register for the Challenge early and receive MissionLab access, onboarding and selected ISG-linked distributed mission exposure as part of their Challenge journey. That must never be represented as purchasing official ISG status.
 
 ## Authority boundary
 
-- This repository owns the **experiment definitions, hypotheses, crew procedures, measurements, execution constraints, communication architecture and submission decisions**.
-- Numerical implementation remains in the existing CubeSTEM Digital Twin / MissionLab repositories.
-- Physical/HIL implementation, if ever used, remains outside this repository.
-- No plan in this repository should be read as an instruction to start software development.
+This repository defines **what the programme is, what may be claimed, how institutions participate and what the technical implementation must satisfy**.
 
-## Immediate target
+It does not contain the Digital Twin, TwinLink, Edge or KidSat implementation itself.
 
-Produce two Appendix 1 Model Experiment applications that are scientifically defensible, Mars-relevant, turnkey in concept, and ready for submission to the ISG Organizing Committee.
+Any change that materially alters the programme architecture, scientific boundaries, node model, registration relationship, or public claims must first be recorded here.
