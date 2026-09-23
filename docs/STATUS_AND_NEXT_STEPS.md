@@ -1,33 +1,42 @@
 # Current Status and Next Steps
 
-**Updated:** 2026-09-12  
-**Purpose:** preserve the immediate institutional / coordination status after submission of the two Model Experiments.
+**Updated:** 2026-09-23  
+**Status:** PROGRAMME ARCHITECTURE v0.1 FROZEN
 
 ## Current status
 
-- MARS-LINK and TWIN-RESILIENCE Appendix-1 proposals have been sent to Ms. Lada / ISG organizers.
-- VC update note prepared as an informative status note.
-- Travelling participants will bear their own international travel / personal participation costs.
-- IST-side Ground Laboratory and associated local activity are planned to be supported from the available SSTRL share within NCGSA, subject to routine institutional approvals.
-- The next internal administrative task is an extension/revision of the already-approved minute sheet.
-- Immediate external focus: **technical node partners**.
-- Sponsorship/funding outreach comes after the node structure is credible and roles are defined.
+- MARS-LINK v2 and TWIN-RESILIENCE v2 scientific baselines are preserved.
+- The offline-first / hybrid Pakistan-Moscow communications rule remains unchanged.
+- The programme scope has now deliberately expanded beyond the two experiment submissions.
+- The umbrella architecture is **MissionLab Network 2026: ISG 2026 -> MissionLab Challenge -> Remote KidSat Missions**.
+- A persistent institutional Mission Node is now the common participation unit across campaigns.
+- No programme fee is charged for ISG participation.
+- The MissionLab Challenge is the separate fee-bearing programme; early registration may include platform/node activation and selected ISG-linked distributed mission exposure.
+- Operational Nodes, Participant Nodes, National Technical/Strategic Nodes and International Collaborator Nodes are distinct participation classes.
+- International collaborators are not represented as part of the Pakistan Ground Laboratory unless organizer approval explicitly supports that status.
+- The ISG-2026 repository is now the programme source of truth; implementation remains in Digital Twin / TwinLink / Edge repositories.
 
-## Near-term sequence
+## Not yet frozen
 
-1. Await organizer feedback on the two Model Experiments.
-2. Keep VC informed; no separate decision paper at this stage.
-3. On the next working session, draft the minute-sheet extension around:
-   - IST Ground Laboratory;
-   - distributed university nodes;
-   - ISG-linked national activity;
-   - student self-funded international travel;
-   - local activity expenditure from SSTRL/NCGSA share;
-   - later larger national follow-on activity.
-4. Begin node outreach with a concise technical invitation.
-5. Confirm two operational university nodes and one possible national technical node.
-6. Only then develop sponsor packages / funding asks.
+The following remain open programme parameters:
+
+- exact MissionLab Challenge registration fee;
+- team size and institutional quota;
+- exact number of operational and participant nodes;
+- final sponsor benefits/packages;
+- exact KidSat allocation model;
+- final public branding treatment if the umbrella name changes;
+- which organizations are confirmed partners/nodes.
+
+## Immediate next sequence
+
+1. Merge this source-of-truth restructuring.
+2. Use the repository as mandatory context for development, media and partner-letter threads.
+3. Verify current Digital Twin/TwinLink implementation state before opening technical implementation tasks.
+4. Develop the Mission Experiment Runtime / node-federation implementation against the frozen boundaries.
+5. Prepare audience-specific letters and a common programme brief from the Participation Model + Message House.
+6. Open Challenge-registration design only after fee/team/approval parameters are separately decided.
 
 ## Working principle
 
-The node network is not decorative. Every node should have a defined technical contribution, a named faculty/technical owner and a path into the larger national follow-on. This makes the network useful both for the ISG activity and as future evidence for distributed MissionLab / Digital Twin deployment.
+No downstream thread should independently redefine the programme. If a new idea materially changes the architecture or claim boundary, update this repository first.
